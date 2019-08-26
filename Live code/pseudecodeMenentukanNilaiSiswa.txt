@@ -1,0 +1,14 @@
+Start
+INPUT nilai student;
+IF nilai <= 100 && nilai >= 80;
+PRINT nilai = " A ";
+IF nilai <= 79 && nilai >= 65;
+PRINT nilai = " B ";
+IF nilai <= 64 && nilai >= 50;
+PRINT nilai = " C ";
+IF nilai <= 49 && nilai > 35;
+PRINT nilai = " D ";
+IF nilai <= 34 && nilai >= 0;
+Else ;
+PRINT "Nilai Invalid";
+End
